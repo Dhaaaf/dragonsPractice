@@ -6,9 +6,9 @@ class EvilDragon extends Dragon {
         this.nemesis = nemesis
     }
     dontInviteThemOverForDinner() {
-    for (let key of this.evilDoings) {
-        console.log(`${this.name} will ${key}`)
-    }
+        for (let key of this.evilDoings) {
+            console.log(`${this.name} will ${key}`)
+        }
     }
     burnsNemesis () {
         return `${this.name} destroys ${this.nemesis} with fire! WHOOOSH!!!`
